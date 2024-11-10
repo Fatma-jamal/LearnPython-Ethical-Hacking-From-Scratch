@@ -1,0 +1,232 @@
+WEBVTT
+
+00:01.000 --> 00:05.190
+Now as I promised you this course is going to be highly practical.
+
+00:05.320 --> 00:09.030
+But I also promise that I will not neglect this hearing.
+
+00:09.430 --> 00:15.320
+So I want to cover some terminology before we jump into hocking programming.
+
+00:15.970 --> 00:22.870
+Now what we mean by hocking is being able to gain access to a system that you're not supposed to have
+
+00:22.870 --> 00:24.220
+access to.
+
+00:24.220 --> 00:30.520
+So for example logging into an email account that you're not supposed to have access to is considered
+
+00:30.520 --> 00:32.550
+hocking that account.
+
+00:32.920 --> 00:39.100
+Gaining access to a remote computer that you're not supposed to have access to is hacking that computer
+
+00:39.520 --> 00:43.510
+reading information that you're not supposed to be able to read.
+
+00:43.540 --> 00:45.820
+Again it's considered hacking.
+
+00:46.390 --> 00:52.690
+So you can see that there is a large number of ways to hack into a system and the word hacking can refer
+
+00:52.690 --> 00:59.980
+to a number of things but the main concept is the same gaining access or being able to do things that
+
+00:59.980 --> 01:04.590
+you're not supposed to be able to do is considered hacking.
+
+01:04.600 --> 01:07.060
+Now there are three main types of hackers.
+
+01:07.120 --> 01:08.830
+We have the black hat hackers.
+
+01:08.860 --> 01:15.820
+These are the bad people that hack systems illegally in order to steal money or to achieve their own
+
+01:15.950 --> 01:18.040
+illegal goals.
+
+01:18.040 --> 01:21.330
+The second part of hackers are the white hat hackers.
+
+01:21.340 --> 01:22.910
+So this is us.
+
+01:23.080 --> 01:30.550
+These people use the same techniques used by black hat hackers and they also hack into systems but they
+
+01:30.550 --> 01:38.830
+only hack into systems that they have permission to hack in order to test the security of these systems.
+
+01:38.860 --> 01:42.300
+And finally we have the Greatheart hackers.
+
+01:42.340 --> 01:44.530
+These are a mixture of the two.
+
+01:44.560 --> 01:50.570
+So they will hack into any system even if they don't have permission to test the security of the system.
+
+01:50.830 --> 01:54.430
+But they will never steal money or damage that system.
+
+01:54.430 --> 01:59.430
+And in most cases they'll go ahead and tell the administrator of that system.
+
+01:59.650 --> 02:06.880
+But what they do is still illegal because they test the security of systems that they do not own or
+
+02:06.880 --> 02:09.780
+do not have permission to test.
+
+02:09.790 --> 02:15.500
+Now one big question that people always ask is why Hartke Why teach or learn hacking.
+
+02:15.640 --> 02:18.030
+Well hacking is an existing industry.
+
+02:18.040 --> 02:21.090
+There are lots of job opportunities for ethical hackers.
+
+02:21.190 --> 02:26.860
+For people like us who will go ahead and test the security of systems to make sure that these systems
+
+02:26.920 --> 02:33.610
+are secure and not vulnerable to black hat hackers there is actually a huge demand for ethical hackers
+
+02:33.610 --> 02:38.010
+these days because of the increased amount of hacking attacks.
+
+02:38.020 --> 02:43.040
+So we on the day the big systems and big companies are getting hacked.
+
+02:43.120 --> 02:50.070
+Not so long ago Oberg got hacked and information of more than 56 million users were exposed.
+
+02:50.290 --> 02:57.250
+So companies like Obery Facebook and Google they hire hackers in order to try and hack into their systems
+
+02:57.490 --> 03:01.450
+and tell them where the weaknesses are so that they can fix it.
+
+03:01.450 --> 03:06.970
+They also have about bounty programs where they literally ask all the hackers around the world to go
+
+03:06.970 --> 03:10.360
+ahead and try to hack into their websites and their web applications.
+
+03:10.510 --> 03:15.590
+And if they could they will pay them a bounty for the box that they find.
+
+03:15.630 --> 03:17.610
+Now what's the hacking part covered.
+
+03:17.640 --> 03:22.550
+What discourse is not only a hacking course we will also cover programming.
+
+03:23.100 --> 03:25.550
+So what do we mean by programming.
+
+03:25.890 --> 03:33.240
+Well programming is the process of writing a program and this very definition leads us to the next question.
+
+03:33.270 --> 03:34.700
+What is a program.
+
+03:34.980 --> 03:41.030
+Well a program is a set of instructions that will allow us to solve a problem.
+
+03:41.100 --> 03:45.110
+For example we have the Facebook app or the Facebook website.
+
+03:45.210 --> 03:48.520
+And the problem that it solves is social networking.
+
+03:48.540 --> 03:52.090
+So it allows us to stay connected with our friends and family.
+
+03:52.590 --> 03:56.110
+Another example is your media player such as iTunes.
+
+03:56.250 --> 03:59.440
+It solves the problem of clean music for you.
+
+03:59.550 --> 04:07.620
+So if you think of it any program that you use solves a certain problem so program it is the process
+
+04:07.680 --> 04:11.330
+of writing a program to solve a problem.
+
+04:11.340 --> 04:18.330
+Now since this is a hacking and program of course our problem is always going to be trying too hard
+
+04:18.540 --> 04:20.210
+into a certain system.
+
+04:20.520 --> 04:26.830
+So basically we will be writing programs that will allow us to hack into networks computers Web sites
+
+04:26.970 --> 04:34.670
+and so one now the solution for the problem cannot be written in plain English you're going to have
+
+04:34.670 --> 04:38.110
+to write it in a language that the computer can understand.
+
+04:38.330 --> 04:41.980
+So you're going to have to use a programming language to do that.
+
+04:43.070 --> 04:47.130
+Now you can use any programming language to write programs for hacking.
+
+04:47.450 --> 04:51.830
+But in this course we're only going to be using Python.
+
+04:51.830 --> 04:58.730
+The reason why I think Python because it's a very simple language yet powerful it's open source and
+
+04:58.790 --> 05:05.660
+object oriented and it has great libraries that can be used for both for hiking and for writing very
+
+05:05.660 --> 05:09.010
+useful normal programs other than hacking programs.
+
+05:10.210 --> 05:14.760
+Now the last question that you might think we covered why you'd want to learn hacking.
+
+05:14.830 --> 05:17.150
+But why would you want to learn programming.
+
+05:17.410 --> 05:23.560
+Well programming is a very very important skill these days everything around us is controlled by computers
+
+05:23.830 --> 05:27.850
+and the only way to communicate with computers is to write programs.
+
+05:27.850 --> 05:33.280
+Some countries are even starting to teach programming to their school children because they think it
+
+05:33.280 --> 05:37.390
+is just as important as learning math on other subjects.
+
+05:37.870 --> 05:43.540
+Now since you want to be a hacker or you're interested in hacking then programming is very very important
+
+05:43.540 --> 05:49.120
+for you especially because it will allow you to start implementing your own attacks.
+
+05:49.210 --> 05:54.670
+So instead of using other tools made by other people you're going to be able to write your own tools
+
+05:54.820 --> 06:00.710
+to exploit witnesses that you discover or to carry out attacks that nobody has ever implemented.
+
+06:01.150 --> 06:06.760
+Not only that but you're going to have the ability to read programs written by other people and extend
+
+06:06.760 --> 06:13.000
+them fix them if they have bugs or extend them to make them fit your situation or your scenario.

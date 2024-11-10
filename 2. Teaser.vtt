@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.880 --> 00:07.390
+Now before we dive into the course content I'd like to give you a teaser or a taste of what you'll be
+
+00:07.390 --> 00:10.910
+able to do by the end of the course.
+
+00:11.080 --> 00:18.160
+Now usually in my teens or lectures I'll give one example to show students what they'll be able to do
+
+00:18.250 --> 00:19.870
+once done with the course.
+
+00:20.110 --> 00:26.760
+But in this course you're going to learn so many cool things and we're going to build more than 20 hacking
+
+00:26.770 --> 00:27.610
+tools.
+
+00:27.730 --> 00:32.690
+So it's unfair and it's really hard for me to pick only one example.
+
+00:33.710 --> 00:41.480
+Therefore instead I'm going to show you three examples taken from the three main sections of the course.
+
+00:41.510 --> 00:47.340
+Now keep in mind each one of these sections is divided into a number of subsections.
+
+00:47.510 --> 00:53.730
+So these examples are only a small fraction of what you'll be able to do once done with the course.
+
+00:53.900 --> 01:01.610
+But I think they work really well to give you a taste of what you'll be able to achieve once done.
+
+01:01.610 --> 01:03.950
+Now since this is just a teaser.
+
+01:03.950 --> 01:06.570
+Don't worry about how these programs work.
+
+01:06.620 --> 01:10.800
+We will cover how to write these programs in details.
+
+01:10.820 --> 01:15.030
+So for now just sit back watch the lecture and enjoy it.
+
+01:15.170 --> 01:19.670
+And then once you start the course you will learn how to write all of these programs.
+
+01:19.880 --> 01:22.610
+And much much more.
+
+01:22.840 --> 01:31.060
+And the first example I'm going to use two programs the first one will allow us to intercept data sent
+
+01:31.120 --> 01:35.340
+or received by any computer on the same network.
+
+01:36.400 --> 01:43.540
+The second one will read this data and filter it to show us user names passwords visited you are elves
+
+01:43.880 --> 01:44.930
+and so on.
+
+01:45.040 --> 01:50.580
+We're going to write these programs ourselves from scratch later on in the course.
+
+01:51.700 --> 01:55.050
+Now these programs are running on my Hocker machine.
+
+01:55.060 --> 02:01.890
+So let's go to the target machine and try to generate some traffic and maybe log in to a service.
+
+02:02.080 --> 02:06.340
+I'm going to go to hotmail dot com and let's try to sign in.
+
+02:06.370 --> 02:11.230
+So I'm going to click on seinen and I'm just going to put some sample information.
+
+02:11.290 --> 02:17.940
+So I'm going to put a user name and the sample password and I'm going to hit enter.
+
+02:18.030 --> 02:24.600
+And now if we go back to the hacker machine you can see that first of all I can see all the requests
+
+02:24.690 --> 02:31.440
+I can see on the Web sites they're visiting and I can also see the user name and the password that they
+
+02:31.440 --> 02:32.590
+logged in with.
+
+02:32.820 --> 02:35.210
+So I can see the username was 822.
+
+02:35.220 --> 02:42.920
+I taught mail dot com and I can see the password was 1 2 3 4 5 6.
+
+02:42.940 --> 02:49.960
+The second example that I'm going to show you is a back door a back door is a program that was executed
+
+02:50.020 --> 02:51.160
+on a system.
+
+02:51.160 --> 02:54.460
+It allows us to remotely control that system.
+
+02:54.460 --> 02:58.480
+So basically hack it and gain full control over it.
+
+02:58.540 --> 03:03.850
+Now just like all the other tools would go we're going to program this from scratch and I'm going to
+
+03:03.850 --> 03:09.820
+show you how to write this in a generic way so that you can use the information you learn here in many
+
+03:09.820 --> 03:10.720
+scenarios.
+
+03:10.720 --> 03:18.480
+For example you'll be able to write a web server a chat program and so one now right here I'm already
+
+03:18.480 --> 03:24.780
+at the hype machine and as you can see it's already listening and waiting for incoming connections.
+
+03:25.350 --> 03:30.500
+Once the backdoor gets executed on a computer we will get a connection.
+
+03:30.540 --> 03:38.010
+As you can see here once we have that connection we'll be able to use all the features implemented in
+
+03:38.010 --> 03:42.150
+this backdoor which we're going to implement ourselves.
+
+03:42.180 --> 03:44.790
+So first of all I have file system access.
+
+03:45.000 --> 03:50.070
+So if I do a CD it'll show me my current working directory.
+
+03:50.250 --> 03:54.050
+And as you can see I'm in users Zayd downloads.
+
+03:54.420 --> 03:58.780
+That's basically because the back door is actually stored in this location.
+
+03:59.760 --> 04:08.280
+So I can see the dot dot to go back one directory and if I do see now to see where I might be can't
+
+04:08.340 --> 04:17.190
+see I'm in zayd and we can also execute all system commands and keep in mind this Pactor works on all
+
+04:17.190 --> 04:18.540
+operating systems.
+
+04:18.540 --> 04:25.380
+It works on Linux Windows and OS X so you can use the system command of your target and they will work
+
+04:25.380 --> 04:26.540
+by default.
+
+04:26.910 --> 04:28.800
+So right now my target is Windows.
+
+04:28.890 --> 04:32.560
+So if I wanted to list the directories I can do it there.
+
+04:32.940 --> 04:39.710
+And as you can see I get a list of all the files and directories in the current working directory.
+
+04:39.720 --> 04:47.540
+Now I can go back in downloads by doing CD downloads and a file list again in here.
+
+04:47.670 --> 04:54.360
+You'll see the files that we have in the downloads which are the back door and the JTR image which I
+
+04:54.360 --> 04:55.600
+have right here.
+
+04:58.000 --> 05:03.370
+Now we also want to highlight a feature that we're going to program which is the ability to download
+
+05:03.370 --> 05:11.660
+files so I'm just going to do download and I'm going to follow it by the file name that I want to download.
+
+05:11.780 --> 05:12.760
+And it's the image.
+
+05:12.770 --> 05:16.970
+So it's G.T. or GBG.
+
+05:17.170 --> 05:21.250
+And as you can see all see it automatically being downloaded in here.
+
+05:21.430 --> 05:29.100
+And if we double click this we have the image intact and we're able to open it now I'm downloading the
+
+05:29.100 --> 05:35.400
+image just as an example but it just goes to show you that you'll be able to download any files from
+
+05:35.400 --> 05:36.570
+the target system.
+
+05:37.790 --> 05:43.370
+You can also upload files which is really really useful because you'll be able to upload evil files
+
+05:43.370 --> 05:45.990
+viruses kill ogres and so on.
+
+05:46.280 --> 05:53.140
+And as an example I'm just going to rename this image to G.T. are to the AJP you.
+
+05:53.470 --> 06:02.610
+I am going to upload it so I'm going to do upload G.T. or two dot JP G.
+
+06:04.480 --> 06:11.930
+Now tell me the upload is successful and if we go here again you can see we have the new image.
+
+06:12.230 --> 06:18.020
+Now if this was an evil file because you're able to execute system commands from the back door you'll
+
+06:18.020 --> 06:23.780
+be able to just call it from here and execute it remotely on the target computer.
+
+06:25.260 --> 06:30.250
+The last example that I want to show you is a vulnerability scanner.
+
+06:30.280 --> 06:36.970
+This is a program that can automatically discover weaknesses in Web sites and web applications.
+
+06:36.970 --> 06:43.600
+So all you have to do is just give this program a website and first of all it's going to discover all
+
+06:43.600 --> 06:47.530
+the links and all the pages in the target website.
+
+06:47.740 --> 06:55.240
+Then for each one of these pages it's going to extract all the parameters and all the forms.
+
+06:55.270 --> 07:03.920
+And finally for each one of these parameters and forms it's going to submit code to discover vulnerabilities.
+
+07:03.970 --> 07:07.840
+Then once it's done it's going to show me the results.
+
+07:07.930 --> 07:15.310
+And as you can see it was able to discover an s s s vulnerability in here just like all the other programs
+
+07:15.470 --> 07:19.050
+were going to write this from scratch ourselves.
+
+07:19.210 --> 07:24.460
+So again don't worry about how this works and don't worry if you don't understand what the vulnerability
+
+07:24.550 --> 07:29.130
+is and all of that we will cover all of this later on in the course.

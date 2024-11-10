@@ -1,0 +1,274 @@
+WEBVTT
+
+00:06.470 --> 00:10.940
+As I mentioned this course is going to be highly practical.
+
+00:10.940 --> 00:17.830
+Therefore you will need a lab a place where you can practice and experiment with the things that you're
+
+00:17.840 --> 00:20.690
+going to learn in the course.
+
+00:20.990 --> 00:28.340
+Not only that but having a lab is essential for hackers or pen testers because let's say you discovered
+
+00:28.430 --> 00:34.100
+a new attack or you want to experiment with a new attack or you learn something new online and you want
+
+00:34.100 --> 00:34.950
+to test it.
+
+00:35.060 --> 00:43.170
+Then the perfect place for you to test this and practice hacking is a hacking or a testing lab not to
+
+00:43.170 --> 00:44.190
+create a lab.
+
+00:44.190 --> 00:50.390
+You just need a number of computers with different operating systems and you will need a number of networks.
+
+00:50.400 --> 00:55.980
+If your testing network attacks and if you're testing Web site attacks then you will need to install
+
+00:55.980 --> 01:05.100
+Web sites on these computers or you can do all of this inside your computer inside one machine and install
+
+01:05.160 --> 01:08.760
+everything else as virtual machines.
+
+01:08.790 --> 01:10.980
+And this is what we're going to do.
+
+01:11.070 --> 01:17.010
+So let's say you have your computer right here this is your main computer that you use every day to
+
+01:17.010 --> 01:20.530
+check your e-mails or even to watch this course.
+
+01:20.820 --> 01:24.570
+This computer might be running Windows OSX or Linux.
+
+01:24.570 --> 01:25.770
+It doesn't really matter.
+
+01:25.770 --> 01:27.670
+It can run any operating system.
+
+01:27.720 --> 01:35.970
+You can keep all the programs that you love and like and install a virtualization software such as virtual
+
+01:35.970 --> 01:46.730
+box virtualization software allow us to create a number of virtual computers inside your main computer
+
+01:47.030 --> 01:55.610
+so we can have three or four or five or 10 computers all installed inside your main operating system
+
+01:55.790 --> 01:58.850
+inside your main computer.
+
+01:58.850 --> 02:03.210
+The really cool thing about this is you will not need a number of computers.
+
+02:03.260 --> 02:08.010
+You can do everything inside a single computer.
+
+02:08.190 --> 02:11.910
+So what we're going to do is we're going to have a heart candy machine.
+
+02:11.910 --> 02:17.540
+This is going to be the machine that we will use in order to hack into other machines.
+
+02:17.580 --> 02:24.480
+We're going to install color Linux on it and we'll talk about what that is later on and we're going
+
+02:24.480 --> 02:26.640
+to have to target machines.
+
+02:26.640 --> 02:33.210
+These are machines that we're going to try to hack into and practice hacking against one of them is
+
+02:33.210 --> 02:38.640
+going to be running windows and the other one is going to be running an operating system called me to
+
+02:38.650 --> 02:42.030
+exploit Hubble and we will talk about that once we get to it.
+
+02:43.700 --> 02:50.930
+Now it is very important to understand that you will not lose any functionality when you install an
+
+02:50.960 --> 02:53.790
+operating system as a virtual machine.
+
+02:53.930 --> 02:59.150
+You can use that machine exactly as if it's a real physical machine.
+
+03:00.380 --> 03:07.180
+So the really cool thing about using virtual machines first of all you're not going to lose any functionality.
+
+03:07.220 --> 03:10.840
+Second all the machines are going to be isolated.
+
+03:10.880 --> 03:16.430
+So as we go through the course we're going to be trying to hack into these machines and we might actually
+
+03:16.430 --> 03:19.170
+break one of them but that's fine.
+
+03:19.190 --> 03:21.500
+It will not affect your host machine.
+
+03:21.560 --> 03:28.580
+You will be able to easily fix this and go back to a snapshot of when the machine was working without
+
+03:28.640 --> 03:32.080
+affecting your main computer.
+
+03:32.090 --> 03:37.160
+The other cool thing is that you'll be able to have a number of different versions of each of these
+
+03:37.160 --> 03:44.390
+machines and you'll be able to change the configuration easily change the network settings or switch
+
+03:44.390 --> 03:49.430
+between different states of these machines and so on.
+
+03:49.430 --> 03:57.990
+So by using virtualization you will not lose any functionality but you will gain so many cool features.
+
+03:58.280 --> 04:04.850
+And the main thing to keep in mind is your host machine your main computer will never be affected.
+
+04:04.850 --> 04:06.730
+It's completely isolated.
+
+04:06.860 --> 04:14.120
+And if we break any of these machines nothing will happen to your precious computer that you use every
+
+04:14.140 --> 04:14.940
+day.
+
+04:15.110 --> 04:20.960
+And this way you can always use your host machine for daily use for checking emails watching the videos
+
+04:21.200 --> 04:28.270
+doing whatever you do normally and then use your virtual machines for hacking and practicing the attacks.
+
+04:28.550 --> 04:29.980
+And this is what I actually do.
+
+04:30.230 --> 04:36.080
+So you can see I have my host machine running OSX and I never use this for hacking.
+
+04:36.560 --> 04:42.440
+But right here I have virtual box and as you can see I have a number of operating systems installed
+
+04:42.440 --> 04:46.870
+on it and I can literally start any of them by selecting the one I want.
+
+04:47.060 --> 04:50.950
+And just click on Start Now don't worry about this.
+
+04:50.960 --> 04:55.600
+I will show you how to install these virtual machines as we go through the course.
+
+04:56.060 --> 05:00.920
+But what you need to do right now is download and install virtual box.
+
+05:00.920 --> 05:06.010
+This program so you can download it from this page.
+
+05:06.020 --> 05:08.650
+I'm going to include its link in the resources.
+
+05:08.870 --> 05:13.790
+And like I said you can install virtual bugs on Windows OS X or Linux.
+
+05:13.790 --> 05:16.400
+So it supports all operating systems.
+
+05:16.400 --> 05:19.210
+Just pick your operating system from here.
+
+05:19.400 --> 05:26.040
+Download the relevant installer and install it and install on it is very very simple.
+
+05:26.060 --> 05:31.700
+All you have to do is literally double click the installer click Next next next next and it will install
+
+05:31.700 --> 05:33.530
+it for you.
+
+05:33.530 --> 05:39.380
+Once you started you'll see a program similar to this but you will not have any virtual machines here.
+
+05:39.410 --> 05:46.550
+So it will be empty and I will show you how to install all of these machines as we go through the course
+
+05:48.660 --> 05:49.910
+one more thing to do.
+
+05:49.950 --> 05:57.470
+As soon as you install virtual box is to download and install the extension pack.
+
+05:57.640 --> 06:06.160
+This will give you better compatibility and it will allow you to use USP devices on the virtual machines
+
+06:06.280 --> 06:12.690
+so you'll be able to use a USB mouse USB keyboard and you SB wireless adapters.
+
+06:12.910 --> 06:17.710
+Again downloading and installing the extension pack is very very simple.
+
+06:17.710 --> 06:19.070
+There is only one file.
+
+06:19.090 --> 06:22.390
+It's always the same file for all operating systems.
+
+06:22.390 --> 06:25.600
+It's the same for Windows for Linux for OSX.
+
+06:25.690 --> 06:28.820
+You just have to click on the download link in here.
+
+06:30.140 --> 06:36.770
+Once you download that I already have it downloaded so I have it right here and this file will only
+
+06:36.770 --> 06:41.130
+work if virtual box is installed successfully.
+
+06:41.210 --> 06:44.740
+So first of all installed virtual box from these links right here.
+
+06:44.750 --> 06:51.200
+Like I said once you download it and install it and can see a Windows similar to this without these
+
+06:51.200 --> 06:58.460
+machines right here we'll see how to install these later then download the extension pack from here.
+
+06:58.460 --> 07:06.260
+You'll have its file similar to this file and only then you can double click this file and it'll automatically
+
+07:06.290 --> 07:13.770
+open in virtual box as you can see it's telling me that I want to install the extension pack.
+
+07:13.870 --> 07:19.570
+It's given me the version which is the same version as the Virgin of the virtual box that I downloaded
+
+07:20.020 --> 07:24.490
+it has to be the same version otherwise it will not work.
+
+07:24.490 --> 07:26.740
+I'm going to click on install.
+
+07:27.040 --> 07:29.270
+We're going to agree to this license.
+
+07:32.140 --> 07:33.790
+I'm going to put my password
+
+07:38.120 --> 07:43.890
+and as you can see it's telling us that the extension pack is installed successfully.
+
+07:43.940 --> 07:48.620
+So now we can go ahead and install virtual machines in virtual box.
