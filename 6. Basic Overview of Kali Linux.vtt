@@ -1,0 +1,181 @@
+WEBVTT
+
+00:01.160 --> 00:07.940
+Okay now that we have Linux installed I want to give you a basic overview of this operating system and
+
+00:07.940 --> 00:12.650
+the structure so that you're comfortable with it and we're going to be using it throughout the whole
+
+00:12.650 --> 00:13.310
+course.
+
+00:13.310 --> 00:18.310
+So everything is going to become easier for you as we go through the course.
+
+00:18.670 --> 00:22.270
+Now the first thing that I want to talk about is the status bar in here.
+
+00:22.660 --> 00:26.150
+So you can see we have an applications menu in here.
+
+00:26.520 --> 00:31.490
+And inside it you can see all the applications are categorized.
+
+00:31.570 --> 00:38.500
+So we have information gathering applications vulnerability analysis web application analysis reverse
+
+00:38.530 --> 00:41.010
+engineering and so on.
+
+00:41.500 --> 00:46.950
+So you can go on each one of these entries and just select any programs that you want to run.
+
+00:47.620 --> 00:54.190
+And the next menus that we have is the places which shows you the most common places in the file system.
+
+00:54.550 --> 00:59.760
+So we have home we have the desktop we have the documents downloads and so on.
+
+00:59.800 --> 01:05.200
+So you can access the places from here and then you click on home or you can just click on the files
+
+01:05.260 --> 01:11.710
+icon in here at the left and both of these will bring you to the home directory which is actually the
+
+01:11.710 --> 01:13.120
+root directory.
+
+01:13.150 --> 01:15.350
+So it says home in here.
+
+01:15.490 --> 01:22.520
+But the actual location of this if I do control l you'll see it is forward slash route.
+
+01:23.140 --> 01:28.750
+So inside this you can see we have our downloads music pictures similar to the way that you have it
+
+01:28.750 --> 01:31.550
+in Windows and OSX.
+
+01:31.570 --> 01:36.700
+We also have the time in here and in here on the right we have more controls.
+
+01:36.910 --> 01:40.810
+So the first thing that we have in here is the workspaces.
+
+01:40.810 --> 01:45.160
+So Linux comes with multiple workspaces by default.
+
+01:45.190 --> 01:51.250
+Basically what this allows us to do is we can have this desktop in here for example we can open the
+
+01:51.250 --> 01:56.360
+places and we can for example navigate to downloads and do some work in here.
+
+01:56.890 --> 02:04.690
+But if we go here to work places and go to the second one you can see that I have an empty desktop that
+
+02:04.690 --> 02:08.990
+I can do whatever I want and for example I can launch Firefox in here.
+
+02:10.690 --> 02:16.780
+And then again if I want to go back to the first workspace all I have to do is click on here click on
+
+02:16.780 --> 02:19.150
+number one and I'm back in here.
+
+02:20.260 --> 02:26.740
+And because I've already used up two spaces the system is already creating a third empty space so I
+
+02:26.740 --> 02:27.790
+can click on that.
+
+02:27.820 --> 02:31.640
+And as you can see I'm in the third space where I can do more stuff.
+
+02:32.930 --> 02:40.880
+Now you can also navigate between the spaces by pressing control alt up or down to go up and down in
+
+02:40.880 --> 02:46.310
+the spaces the next part of the saddest part is this last part in here.
+
+02:46.790 --> 02:51.880
+And if you click on it basically the first thing it'll allow you to do is control the sound.
+
+02:51.890 --> 02:54.500
+Next you'll see your connections.
+
+02:54.500 --> 02:59.690
+So as you can see right now and as I showed you before this is showing up as if we're connected to a
+
+02:59.690 --> 03:07.820
+wired network because I configured this network to use that network if you have a wireless adapter connected
+
+03:07.820 --> 03:10.970
+to this computer you should be able to see it here.
+
+03:11.240 --> 03:17.510
+If you don't see it then follow the link in the resources of the sector to see how to properly connect
+
+03:17.510 --> 03:23.420
+your wireless adapter or any device to a virtual machine.
+
+03:23.420 --> 03:31.770
+Now I should note you can only use external us be adapters in order to access Wi-Fi networks from Kaleem.
+
+03:31.820 --> 03:38.930
+You cannot use the built in Wi-Fi card but Kelly should have Internet connection anyway because it is
+
+03:38.930 --> 03:40.820
+configured to use and not network.
+
+03:40.910 --> 03:44.770
+And as you can see in here it's still me my wired is connected.
+
+03:45.140 --> 03:55.150
+So if I actually go down to Firefox I'll close this and if I just go to Google that come you can see
+
+03:55.240 --> 03:57.980
+it is connected to the Internet.
+
+03:58.030 --> 04:02.010
+So let's go back to where we were.
+
+04:02.050 --> 04:08.710
+If we click here we also have the battery settings the user settings.
+
+04:08.710 --> 04:11.180
+You have this button to turn off the machine.
+
+04:11.200 --> 04:13.150
+This is to lock the machine.
+
+04:13.150 --> 04:19.030
+And this will show the preferences where you can modify the preferences of the machine so you have Bluetooth
+
+04:19.030 --> 04:24.290
+Wi-Fi change the background change the languages and so on.
+
+04:24.700 --> 04:30.100
+So you can spend some time getting familiar with this it's very easy and very intuitive.
+
+04:30.100 --> 04:35.740
+Same goes to the file manager and we're very intuitive DoubleClick to go when you can right click and
+
+04:35.770 --> 04:41.500
+archive and extract here to uncompress said you can navigate through all of these files by clicking
+
+04:41.500 --> 04:45.660
+them and then you have the tri shear which contains the deleted files.
+
+04:47.420 --> 04:54.770
+Now we also have the dock in here which contains the favorite applications and you can also access all
+
+04:54.770 --> 04:58.820
+the other applications by clicking on this icon right here.
+
+04:58.830 --> 05:04.370
+The show applications and this will show you a menu with the most frequent applications.
+
+05:04.610 --> 05:09.410
+And then if you click on all it will show you all the available applications.
